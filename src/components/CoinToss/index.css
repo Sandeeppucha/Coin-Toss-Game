@@ -1,0 +1,70 @@
+/* Write your CSS here */
+.app-container {
+  min-height: 100vh;
+  background-image: linear-gradient(to right, #f9d423, #e2a139);
+  padding: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.toss-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: white;
+  border-radius: 10px;
+  padding: 40px;
+}
+
+.heading {
+  font-size: 50px;
+  font-family: 'Roboto';
+  color: #a35200;
+  font-weight: bold;
+}
+
+.result {
+  color: #334155;
+  font-weight: bold;
+  font-size: 25px;
+}
+
+.coin {
+  height: 130px;
+  width: 130px;
+  margin: 15px;
+}
+
+.toss-button {
+  background-color: #f9d423;
+  border-radius: 10px;
+  height: 40px;
+  width: 80px;
+  border-width: 0px;
+  color: #a35200;
+  font-weight: 500;
+  margin: 10px;
+}
+
+.results-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.count {
+  margin-left: 25px;
+  margin-right: 25px;
+  font-weight: bold;
+  font-family: 'Roboto';
+}
+
+@media screen and (max-width: 767px) {
+  .results-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+}
